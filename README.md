@@ -11,12 +11,12 @@ Changes need to be made to the system to make it usable.
 
 - Proper database tables need to be set up:
 	- temp_user
-		- id		(int)	<Primary Key, Auto Increment, Not Null>
+		- id		(int)	Primary Key, Auto Increment, Not Null
 		- email		(varchar[255])
 		- password	(varchar[255])
 		- key		(varchar[255])
 		
 	- user
-		- id		(int)	<Primary Key, Auto Increment, Not Null>
+		- id		(int)	Primary Key, Auto Increment, Not Null
 		- email		(varchar[255])
 		- password	(varchar[255])
